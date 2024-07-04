@@ -3,7 +3,6 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class CustomNoteItem extends StatelessWidget {
   const CustomNoteItem({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Container(

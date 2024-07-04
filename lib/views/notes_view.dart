@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:notes_app/widgets/bottom_sheet_contents.dart';
+import 'package:notes_app/widgets/bottom_sheet_body.dart';
 import 'package:notes_app/widgets/notes_view_body.dart';
 
 class NotesView extends StatelessWidget {
@@ -15,7 +15,7 @@ class NotesView extends StatelessWidget {
               borderRadius: BorderRadius.circular(16),
             ),
             context: context,
-            builder: (ctx) => const BottomSheetContents(),
+            builder: (ctx) => const BottomSheetBody(),
           );
         },
         child: const Icon(Icons.add),
